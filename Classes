@@ -1,0 +1,16 @@
+struct book
+{
+    int id;
+    string name;
+    int quantity;
+    int total_borrowed = 0;
+};
+
+struct user
+{
+    string name;
+    int id;
+    book borrowed_books[100];
+    int cnt_borrowed_books = 0;
+};
+
